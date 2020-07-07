@@ -318,7 +318,7 @@ nav #marker
 .insertion
 {
     position:relative;
-    margin:100px;
+    margin:90px;
     padding:130px;
     display:flex;
     margin-top: 50px;
@@ -343,7 +343,7 @@ nav #marker
 {
     margin-top:0;
     margin-bottom:0;
-    width:400px;
+    width:380px;
     z-index:999;
 }
 .type
@@ -397,7 +397,7 @@ nav #marker
     margin-top:30px;
     margin-bottom:30px;
     position: absolute;
-    left:159px;
+    left:90px;
     padding:20px 40px 20px 40px;
     letter-spacing: 1px;
     background:rgb(10, 25, 47);
