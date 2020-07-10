@@ -524,6 +524,8 @@ nav #marker
     margin-top: 200px;
     margin-bottom: 200px;
     transition: .5s linear;
+    margin-left: 170px;
+    margin-right: 70px;
 }
 .fjaqlf {
     position: relative;
@@ -603,14 +605,15 @@ p {
     font-size: 14px;
     line-height: 12px;
 }
-@media (max-width: 1000px)
+@media (max-width: 600px)
 {
     #about
     {
         padding: 100px 0px;
-        margin:200px 40px 200px 70px;
+        margin:250px 40px 200px 70px;
     }
-}  
+} 
+ 
 
 
 .ibciKe {
