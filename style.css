@@ -303,6 +303,11 @@ nav
         margin-left:50px;
         font-size:1.7em;
     }
+    #about
+    {
+        padding: 100px 0px;
+        margin:200px 50px;
+    }
 }
 @media screen and (max-width: 510px)
 {
@@ -314,6 +319,11 @@ nav
         margin-left: 52px;
         color: rgb(100, 255, 218);
     }
+    /* #about
+    {
+        padding: 80px 0px;
+        margin:60px 60px;
+    } */
 }    
 nav #marker
 {
@@ -512,6 +522,8 @@ nav #marker
     margin: 0px auto;
     padding: 150px 0px;
     margin-top: 200px;
+    margin-bottom: 200px;
+    transition: .5s linear;
 }
 .fjaqlf {
     position: relative;
@@ -596,7 +608,7 @@ p {
     #about
     {
         padding: 100px 0px;
-        margin:80px 70px;
+        margin:200px 40px 200px 70px;
     }
 }  
 
@@ -640,6 +652,7 @@ p {
     margin: 0px 0px 20px;
     font-weight: 600;
     color: rgb(204, 214, 246);
+    transition: .3s linear;
 }
 .ibciKe div
 {
@@ -651,7 +664,7 @@ p {
 p 
 {
     margin: 0px 0px 15px;
-    font-family: cursive;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
     
 }
 @media screen and (max-width: 600px)
