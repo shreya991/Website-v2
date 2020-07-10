@@ -208,7 +208,7 @@ nav
         cursor: pointer;
         right: 5%;
         top: 50%;
-        margin-top:20px;
+        margin-top:15px;
         transform: translate(-5%,-50%);
         z-index:2;
     }
@@ -292,6 +292,7 @@ nav
         transform:rotate(45deg) ;
         bottom:12px;
     }
+    
     #name1
     {
         margin-left:50px;
@@ -303,6 +304,17 @@ nav
         font-size:1.7em;
     }
 }
+@media screen and (max-width: 510px)
+{
+    #intro
+    {
+        display:inline-block;
+        margin-top: 100px;
+        font-size:18px;
+        margin-left: 52px;
+        color: rgb(100, 255, 218);
+    }
+}    
 nav #marker
 {
     position: absolute;
@@ -584,7 +596,7 @@ p {
     #about
     {
         padding: 100px 0px;
-        margin:100px 100px;
+        margin:80px 70px;
     }
 }  
 
@@ -639,6 +651,8 @@ p {
 p 
 {
     margin: 0px 0px 15px;
+    font-family: cursive;
+    
 }
 @media screen and (max-width: 600px)
 {
@@ -663,12 +677,12 @@ p
     color: rgb(100, 255, 218);
     text-decoration: none;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
-    border:2px solid rgb(100, 255, 218);
+    border:1px solid rgb(100, 255, 218);
     border-radius: 4px;;
     padding:15px 25px 15px 25px;
     margin-top:50px;
-    font-weight:700;
-    letter-spacing: 2px;;
+    font-weight:200;
+    letter-spacing: 1px;;
 }
 .ibciKe a:hover
 {
