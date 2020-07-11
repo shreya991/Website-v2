@@ -1,11 +1,11 @@
 .loader_bg
 {
-    position:fixed;
+    position:absolute;
     background:rgb(18, 46, 78);
     z-index:99999;
     width: 100%;
     height:100%;
-
+    top:0;
 }
 .loader
 {
@@ -70,7 +70,9 @@ body
 .logo
 {
     position: absolute;
-    margin:0 25px;
+    margin-left:-20px;
+    margin-bottom:20px;
+    margin-top:10px;
     padding:25px;
     margin-right: auto;
     background-image:url(img/logo2.png);
@@ -80,6 +82,27 @@ body
 nav
 {
     height: 10vh;
+    
+}
+.brHOCd {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    background-color: rgb(10, 25, 47);
+    z-index: 11;
+    width: 100%;
+    height: 70px;
+    box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -10px;
+    transform: translateY(0px);
+    filter: none !important;
+    pointer-events: auto !important;
+    user-select: auto !important;
+    padding: 0px 50px;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 }
 .nav-links
 {
@@ -91,16 +114,40 @@ nav
     margin-left:auto;
     margin-top:20px;
 }
+.dHbeLh {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: absolute;
+    right: 60px;
+    top: 11px;
+}
+.fKHcAI {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
 .nav-links li
 {
     color:rgb(100, 255, 218);
-    margin:10px;
+    margin:15px;
+    padding-top:15px;
+    font-size:13px;
 }
 .nav-links li a
 {
     color: rgb(165, 165, 187);
     text-decoration: none;
-    font-size: 16px;
+    font-size: 13px;
+}
+.myself
+{
+    margin-top:200px;
 }
 #github 
 {
@@ -167,6 +214,11 @@ nav
 
 @media screen and (max-width: 768px)
 {
+    .brHOCd
+    {
+        /* display:none; */
+    }
+   
     .nav-links
     {
         position:fixed;
@@ -198,16 +250,18 @@ nav
     }
     .logo
     {
-        margin-top:20px;
+        margin-left:-20px;
+        /* margin-top:10px; */
+        margin-bottom:20px;
     }
     .hamburger
     {
         display:block;
-        position: absolute;
+        position: fixed;
         cursor: pointer;
         right: 5%;
         top: 50%;
-        margin-top:15px;
+        margin-top:7px;
         transform: translate(-5%,-50%);
         z-index:2;
     }
@@ -325,6 +379,10 @@ nav
     #name2
     {
         font-size:2.5em;
+    }
+    .myself
+    {
+        margin-top:100px;
     }
 }    
 /* nav #marker
@@ -931,9 +989,17 @@ footer
 {
    .cards
    {
-       margin-left:50px;
-       margin-right:50px;
+       margin-left:100px;
+       margin-right:100px;
    }
     
 }
-/
+@media screen and (max-width:510px)
+{
+   .cards
+   {
+       margin-left:60px;
+       margin-right:60px;
+   }
+    
+}
