@@ -328,7 +328,7 @@ nav
         font-size:2.5em;
     }
 }    
-nav #marker
+/* nav #marker
 {
     position: absolute;
     top: 45px;
@@ -340,7 +340,7 @@ nav #marker
     border:-8px;
     transition: 0.5s;
     border-radius: 4px;
-}
+} */
 .insertion
 {
     position:relative;
@@ -356,6 +356,7 @@ nav #marker
     background-repeat: no-repeat;
     transition: .3s linear;
     border:1px solid rgb(100, 255, 218);
+    border-radius: 4px;
 }
 .color
 {
@@ -782,3 +783,158 @@ p
     
 
 }
+/* Open Source Projects Section */
+
+.hXEqdP {
+    max-width: 1000px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    height:auto;
+    margin: 0px auto;
+    margin-top:100px;
+    padding: 150px 0px;
+    margin-bottom:300px;
+}
+.jUYiNF {
+    font-size: 32px;
+    margin: 0px auto;
+    font-weight: 600;
+    color: rgb(204, 214, 246);
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    /* margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+    box-sizing: inherit;
+}
+.pack
+{
+   margin-top:50px;
+   /* width:1000px; */
+   /* height:344px;  */
+}
+.pack .cards 
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    position: relative;
+    gap: 15px;
+    
+}    
+.division
+{
+    box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    height: 100%;
+    background-color: rgb(23, 42, 69);
+    padding: 2rem 1.75rem;
+    border-radius: 3px;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    
+}
+.division:hover , .division:focus  
+{
+    transform: translateY(-5px);
+}
+.gkqTTn {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+    width:272px;
+    height:40px;
+}
+.gIbvrW:hover, .gIbvrW:focus {
+    box-shadow: rgba(2, 12, 27, 0.7) 0px 20px 30px -15px;
+}
+.cVJOKU {
+    font-size: 22px;
+    color: rgb(204, 214, 246);
+    margin: 0px 0px 10px;
+    display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.dGFYAG {
+    font-size: 17px;
+    color: rgb(168, 178, 209);
+}
+.dGFYAG p 
+{
+    font-size: 17px;
+    margin: 0px 0px 15px;
+}
+footer
+{
+    display:block;
+}
+.kKWBdx {
+    display: flex;
+    align-items: flex-end;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 20px 0px 0px;
+    list-style: none;
+}
+.kKWBdx li {
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-size: 12px;
+    color: rgb(136, 146, 176);
+    line-height: 1.75;
+    margin-right: 15px;
+}
+.gkqTTn {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.kwInvm {
+    color: rgb(100, 255, 218);
+}
+
+.hUTEah 
+{
+    position: relative;
+    top: -10px;
+    padding: 10px;
+}
+.hUTEah i 
+{
+    width: 20px;
+    height: 20px;
+    fill: currentcolor;
+    vertical-align: middle;
+}
+.hUTEah i:hover
+{
+    color:rgb(100, 255, 218);
+}
+@media screen and (max-width:1200px)
+{
+   .cards
+   {
+       margin-left:50px;
+       margin-right:50px;
+   }
+    
+}
+/
