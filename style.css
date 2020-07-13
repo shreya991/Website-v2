@@ -71,10 +71,8 @@ body
 {
     position: absolute;
     margin-left:-20px;
-    margin-bottom:0px;
-    margin-top:20px;
+    margin-top:10px;
     padding:25px;
-    margin-right: auto;
     background-image:url(img/logo2.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -252,8 +250,6 @@ nav
     .logo
     {
         margin-left:-30px;
-        /* margin-top:10px; */
-        margin-bottom:20px;
     }
     .hamburger
     {
@@ -287,23 +283,48 @@ nav
     }
     .nav-links li
     {
-        display:list-item;
+        display:block;;
         color:rgb(100, 255, 218);   
-        margin:50px 0;   
+        margin:50px 0;  
+        box-sizing:inherit; 
+        padding: 10px;
+        padding-left: 72px;
     }
     .nav-links li a
     {
-        /* position:absolute; */
+        position:absolute;
         text-decoration-skip-ink: auto;
         color: inherit; 
         cursor: pointer;
-        font-size:20px;
+        font-size:18px;
         text-decoration: none;
         color:rgb(204, 214, 246);
         transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
         padding: 3px 20px 20px;
-        margin:20px 0;
+        margin:20px 0 ;
+        left:100px;
     }
+    #no1
+    {
+        left:84px;
+    }
+    #no2
+    {
+        left:70px;
+    }
+    #no3
+    {
+        left:90px;
+    }
+    #no4
+    {
+        left:78px;
+    }
+    #github
+    {
+       left:50px; 
+    }
+
     .nav-links li a:hover
     {
         color:rgb(100, 255, 218);
@@ -384,6 +405,10 @@ nav
     .myself
     {
         margin-top:100px;
+    }
+    .fjaqlf
+    {
+        font-size:25px;
     }
 }    
 /* nav #marker
@@ -693,7 +718,7 @@ p {
     width: 100%;
     white-space: nowrap;
     display: block;
-    color: rgb(240, 230, 232);
+    color: rgb(205, 205, 219);
     font-size: 16px;
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
     font-weight: normal;
@@ -803,6 +828,10 @@ p
 
 @media screen and (max-width: 600px)
 {
+    .fjaqlf
+    {
+        font-size:25px;
+    }
     .krfQUW
     {
         display:none;
