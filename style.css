@@ -83,7 +83,7 @@ nav
     
 }
 .brHOCd {
-    display: flex;
+    /* display: flex; */
     -webkit-box-pack: justify;
     justify-content: space-between;
     -webkit-box-align: center;
@@ -750,8 +750,8 @@ p {
 {
     width:auto;
     height:200px;
-    margin-left:25%;
-    margin-right:25%;
+    margin-left:50px;
+    margin-right:50px;
 }
 p 
 {
@@ -786,7 +786,7 @@ p
     border-radius: 4px;;
     padding:15px 25px 15px 25px;
     margin-top:50px;
-    margin-bottom:20px;
+    margin-bottom:50px;
     font-weight:200;
     letter-spacing: 1px;;
 }
