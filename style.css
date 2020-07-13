@@ -748,10 +748,7 @@ p {
 }
 .ibciKe div
 {
-    width:auto;
-    height:200px;
-    margin-left:50px;
-    margin-right:50px;
+    display:block;
 }
 p 
 {
@@ -826,7 +823,7 @@ p
     display:none;
 }
 
-@media screen and (max-width: 600px)
+@media screen and (max-width: 768px)
 {
     .fjaqlf
     {
