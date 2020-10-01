@@ -106,7 +106,7 @@ nav
 {
     display: flex;
     list-style:none;
-    width: 65%;
+    width: 65.5%;
     justify-content: space-around;
     align-items: center;
     margin-left:auto;
@@ -134,7 +134,7 @@ nav
 {
     color:rgb(100, 255, 218);
     margin:15px;
-    padding-top:5px;
+    padding-top:5.4px;
     font-size:13px;
     margin-bottom:20px;
 }
